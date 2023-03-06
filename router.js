@@ -13,4 +13,8 @@ router.get('/regiCita', (req, res) => {
     res.render('formularioAgendamiento.ejs')
 })
 
+router.get('/viewCita', (req, res) => {
+    res.render('visualizacionCita.ejs')
+})
+
 module.exports = router;

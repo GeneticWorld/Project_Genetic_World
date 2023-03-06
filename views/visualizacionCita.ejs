@@ -4,15 +4,13 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Registro de Citas</title>
-        <link rel="stylesheet" href="/resources/css/modulo-registro-cita.css">
+        <title>Visualizacion de datos de la cita</title>
+        <link rel="stylesheet" href="/resources/css/visualizacionCita-Style.css">
         <link rel="icon" href="/resources/img/Mundogenetioo.jpg">
     </head>
-
     <body>
         <!-- Imagen encabezado -->
             <div class="ImgHead"> <img src="/resources/img/logoMundoGenetico.png" alt=""></div>
-
                 <!-- Encabezado -->
                 <div class="head">
                     <div class="text1">
@@ -25,58 +23,50 @@
                             <a href="" class="hipervinculo">Citas Confirmadas</a>
                         </div>
                 </div>
-
                 <!-- Boton de cerrado de sesion -->
                     <div class="boton1"> 
                         <button class="btn-cerarsesion" >Cerrar sesion</button>
                     </div>
- 
         <div class="login-box">
-            <h1>Registrar cita</h1>
-            
+            <h1> Nombre del Cliente </h1>
+            <img class="avatar" src="/resources/img/perfil.gif" alt="logo-usuario">
             <form action="">
                 <p>
                     <!-- Id -->
-                    <label for="id">Id</label>
-                    <input type="number" placeholder="Ingrese Id" id="id" required>
+                    <label for="id">Cedula: </label>
+                    <p></p>
                 </p>
                 <p>
                     <!-- Fecha -->
-                    <label for="fecha">Fecha</label>
-                    <input type="date" placeholder="Ingrese fecha" id="fecha" required>
+                    <label for="fecha">EPS: </label>
+                    <p></p>
                 </p>
                 <p>
                     <!-- ciudad -->
-                    <label for="ciudad">Ciudad</label>
-                    <input type="text" placeholder="Ingrese ciudad" id="ciudad" required>
+                    <label for="ciudad">Direccion: </label>
+                    <p></p>
                 </p>
                 <p>
                     <!-- telefono -->
-                    <label for="telefono">Telefono</label>
-                    <input type="tel" placeholder="Ingrese telefono" id="telefono" required>
+                    <label for="telefono">Telefono: </label>
+                    <p></p>
                 </p>
                 <p>
                     <!-- laboratorio -->
-                    <label for="laboratorio">Laboratorio</label>
-                    <input type="text" placeholder="Ingrese laboratorio" id="laboratorio" required>
+                    <label for="laboratorio">Laboratorio local: </label>
+                    <p></p>
                 </p>
                 <p>
                     <!-- costo de la prueba -->
-                    <label for="costo-prueba">Costo de la prueba</label>
-                    <input type="number" placeholder="Ingrese costo prueba" id="costo-prueba" required>
-                </p>
-                <p class="block">
-                    <!-- observaciones -->
-                    <label for="observaciones">Observaciones</label>
-                    <textarea name="observaciones" id="observaciones" rows="3"></textarea>
-                </p>
+                    <label for="costo-prueba">Cita vigente: </label>
+                    <p></p>    
+                </p>                      
                 <!-- boton -->
                 <p class="block">
-                    <button>Guardar</button>
+                   <button>Editar</button>
+                   <button>Regresar</button>
                 </p>
             </form>
-            <!-- link borrar info -->
-            <a href="/viewCita">Borrar informacion del formulario</a>
         </div>
     </body>
 </html>

@@ -20,6 +20,7 @@ body{
     border-radius: 30px;
     box-shadow: 0 0 60px 0 rgb( 000, 000, 000, .7);
 }
+
 .login-box .avatar{
     width: 100px;
     height: 100px;
@@ -28,34 +29,27 @@ body{
     top: -50px;
     left: calc(50% - 50px);
 }
+
 .login-box h1{
     margin: 0;
     padding: 0 0 20px;
     text-align: center;
     font-size: 22px;
 }
+
 .login-box label{
     margin: 0;
-    padding: 0;
+    padding: 2px;
     font-weight: bold;
     display: block;
 }
+
 .login-box input{
     width: 100%;
     margin-bottom: 20px;
 }
-.login-box input[type="text"],
-.login-box input[type="password"]{
-    border: none;
-    border-bottom: 1px solid #0a0a0a;
-    background: transparent;
-    outline: none;
-    height: 40px;
-    color: white; 
-    font-size: 16px;
-}
 
-.login-box input[type="button"]{
+.login-box p button {
     border: none;
     outline: none;
     width: 160px;
@@ -66,19 +60,16 @@ body{
     border-radius: 20px;
     margin-right: 6px;
     cursor: pointer;
+    float: right;
 }
 
-.login-box input[type="button"] {
+.login-box p button {
     transition-duration: 0.4s;
 }
   
-.login-box input[type="button"]:hover {
+.login-box p button:hover {
     background-color: #720202; /* Green */
     color: white;
-}
-
-  .login-box input[type="submit"] {
-    transition-duration: 0.4s;
 }
   
 .login-box input[type="submit"]:hover {
@@ -96,4 +87,90 @@ body{
 
 .login-box a:hover{
     color: white;
+}
+
+.contenedorHeader{
+    padding: 10px;
+    width: 100%;
+}
+
+.ImgHead {
+    width: 15%;
+    height: 80px;
+    border-radius: 50mm;
+    float: left;
+    border-radius: 10px;
+    margin-left:20px ;
+    margin-top:10px;
+}
+
+.head {
+    background-color: rgb(30, 219, 210);
+    width: 62%;
+    height: 70px;
+    float:left;
+    margin-left: 3%;
+    margin-right: 3%;
+   display: flex;
+   justify-content: center;
+   margin-top:10px;
+   border: 1px solid;
+   border-color: black;
+   border-radius: 10px;
+}
+
+.text1 {
+    float: left;
+    height: 40px;
+    width: 15%;
+    margin-top: 10px;
+    margin-right:150px ;
+    text-align: center;
+    padding-top: 15px;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.hipervinculo{
+    color: black;
+    text-decoration: none;
+}
+
+.text2 {
+    float:left;
+    height: 40px;
+    width: 18%;
+    margin-top: 10px;
+    padding-top: 15px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.text3 {
+    float:right;
+    height: 40px;
+    width: 20,5%;
+    margin-top: 10px;
+    margin-left: 150px;
+    padding-top: 15px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.boton1 {
+    width: 15%;
+    height: 70px ;
+    float: right ;
+    margin-top: 30px;
+   
+}
+.btn-cerarsesion {
+    background-color: transparent;
+    color: rgb(17, 17, 17);
+    border-color: rgb(8, 8, 8);
+    border-radius: 15px;
+    width: 50%;
+    height: 38px;
+
 }
