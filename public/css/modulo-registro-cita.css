@@ -9,82 +9,13 @@ body{
     font-family: sans-serif;
 }
 
-.contenedorHeader{
-    padding: 10px;
-    width: 100%;
-}
-
-.ImgHead {
-    width: 15%;
-    height: 80px;
-    border-radius: 50mm;
-    float: left;
-    border-radius: 10px;
-    margin-left:20px ;
-    margin-top:10px;
-}
-
-.head {
-    background-color: rgb(30, 219, 210);
-    width: 62%;
-    height: 70px;
-    float:left;
-    margin-left: 3%;
-    margin-right: 3%;
-   display: flex;
-   justify-content: center;
-   margin-top:10px;
-   border: 1px solid;
-   border-color: black;
-   border-radius: 10px;
-}
-
-.text1 {
-    float: left;
-    height: 40px;
-    width: 15%;
-    margin-top: 10px;
-    margin-right:150px ;
-    text-align: center;
-    padding-top: 15px;
-    color: black;
-    font-weight: bold;
-    font-size: 15px;
-}
-
-.hipervinculo{
-    color: black;
-    text-decoration: none;
-}
-
-.text2 {
-    float:left;
-    height: 40px;
-    width: 18%;
-    margin-top: 10px;
-    padding-top: 15px;
-    font-weight: bold;
-    font-size: 15px;
-}
-
-.text3 {
-    float:right;
-    height: 40px;
-    width: 20,5%;
-    margin-top: 10px;
-    margin-left: 150px;
-    padding-top: 15px;
-    font-weight: bold;
-    font-size: 15px;
-}
-
 .boton1 {
     width: 15%;
     height: 70px ;
     float: right ;
     margin-top: 30px;
-   
 }
+
 .btn-cerarsesion {
     background-color: transparent;
     color: rgb(17, 17, 17);
@@ -92,12 +23,16 @@ body{
     border-radius: 15px;
     width: 50%;
     height: 38px;
+}
 
+.btn-cerarsesion:hover {
+    cursor: pointer;
+    background-color: aqua;
 }
 
 .login-box{
-    width: 1000px;
-    height: 700px;
+    width: 900px;
+    height: 800px;
     background: rgb(86, 191, 199);
     color: rgb(10, 7, 7);
     top: 54%;
@@ -105,7 +40,7 @@ body{
     position: absolute;
     transform: translate(-50%, -50%);
     box-sizing: border-box;
-    padding: 70px 30px;
+    padding: 20px 20px;
     box-shadow: 0 0 60px 0 rgb( 000, 000, 000, .7);
     border-radius: 20px;
 }
@@ -143,6 +78,21 @@ body{
     background: red;
     border: 0;
     text-transform: uppercase;
+    border-radius: 20px;
+}
+
+.btn-modulo-citas-agendadas {
+    background-color: red;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    width: 100%;
+    height: 50px;
+}
+
+.btn-modulo-citas-agendadas:hover {
+    cursor: pointer;
+    background-color: rgb(90, 1, 1);
 }
 
 .login-box .avatar{
@@ -155,6 +105,7 @@ body{
 }
 
 .login-box h1{
+    width: 100%;
     margin: 0;
     padding: 0 0 20px;
     text-align: center;
@@ -170,7 +121,7 @@ body{
 
 .login-box a{
     text-decoration: none;
-    font-size: 12px;
+    font-size: 18px;
     line-height: 80px;
     color: rgb(14, 11, 11);
     float: right;

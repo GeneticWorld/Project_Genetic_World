@@ -17,4 +17,8 @@ router.get('/viewCita', (req, res) => {
     res.render('visualizacionCita.ejs')
 })
 
+router.get('/citasAgendadas', (req, res) => {
+    res.render('citasAgendadas.ejs')
+})
+
 module.exports = router;

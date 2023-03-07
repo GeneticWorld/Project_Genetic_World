@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0 1.5em;
+    background:url(../img/mundogenetico.webp) no-repeat center top; 
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+/* Boton cerrar sesion  */
+
+.boton1 {
+    width: 15%;
+    height: 70px ;
+    float: right ;
+    margin-top: 30px;
+}
+
+.btn-cerarsesion {
+    background-color: transparent;
+    color: rgb(17, 17, 17);
+    border-color: rgb(8, 8, 8);
+    border-radius: 15px;
+    width: 50%;
+    height: 38px;
+}
+
+.btn-cerarsesion:hover {
+    cursor: pointer;
+    background-color: aqua;
+}
+
+/* Fin boton cerrar sesion */
+
+/* Contenedor iformacion de las citas */
+
+.contenedor-citas {
+    width: 900px;
+    height: 529px;
+    background: rgb(86, 191, 199);
+    color: rgb(10, 7, 7);
+    top: 54%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 39px 10px;
+    box-shadow: 0 0 60px 0 rgb(0 0 0 / 70%);
+    border-radius: 20px;
+}
+
+.infoCitas ul {
+    padding: 40px 40px;
+    margin-top: 50px;
+}
+
+.infoCitas li{
+    display: inline;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin: 20px;
+    padding: 30px 0px;
+}
+
+.separador {
+    color: gray;
+}
+
+.contenedor-citas input[type="button"] {
+    background-color: rgb(5, 152, 197);
+    border: none;
+    border-radius: 20px;
+    width: 10%;
+    height: 40px;
+}
+
+.contenedor-citas input:hover[type="button"] {
+    background-color: rgba(255, 255, 255, 0.568);
+    color: black;
+    cursor: pointer;
+}
+
+.contenedor-citas button {
+    background-color: #ff0000cf;
+    border: none;
+    border-radius: 20px;
+    width: 30%;
+    height: 40px;
+    margin: 5px 80px;
+    text-transform: uppercase;
+}
+
+.contenedor-citas button:hover {
+    background-color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+
+/* Fin contenedor iformacion de las citas */

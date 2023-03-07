@@ -1,14 +1,15 @@
-body{
+body {
     margin: 0;
     padding: 0;
-    background:url(../img/mundogenetico.webp) no-repeat center top; 
+    background: url(../img/mundogenetico.webp) no-repeat center top;
     background-size: cover;
     font-family: sans-serif;
     height: 100vh;
 }
-.login-box{
-    width: 400px;
-    height: 460px;
+
+.login-box {
+    width: 420px;
+    height: 480px;
     background: rgb(86, 191, 199);
     color: rgb(10, 7, 7);
     top: 50%;
@@ -16,12 +17,12 @@ body{
     position: absolute;
     transform: translate(-50%, -50%);
     box-sizing: border-box;
-    padding: 70px 30px;
+    padding: 70px 40px;
     border-radius: 30px;
-    box-shadow: 0 0 60px 0 rgb( 000, 000, 000, .7);
+    box-shadow: 0 0 60px 0 rgb(000, 000, 000, .7);
 }
 
-.login-box .avatar{
+.login-box .avatar {
     width: 100px;
     height: 100px;
     border-radius: 20%;
@@ -30,21 +31,21 @@ body{
     left: calc(50% - 50px);
 }
 
-.login-box h1{
+.login-box h1 {
     margin: 0;
     padding: 0 0 20px;
     text-align: center;
     font-size: 22px;
 }
 
-.login-box label{
+.login-box label {
     margin: 0;
-    padding: 2px;
+    padding: 5px;
     font-weight: bold;
     display: block;
 }
 
-.login-box input{
+.login-box input {
     width: 100%;
     margin-bottom: 20px;
 }
@@ -66,30 +67,32 @@ body{
 .login-box p button {
     transition-duration: 0.4s;
 }
-  
+
 .login-box p button:hover {
-    background-color: #720202; /* Green */
-    color: white;
-}
-  
-.login-box input[type="submit"]:hover {
-    background-color: #720202; /* Green */
+    background-color: #720202;
     color: white;
 }
 
-.login-box a{
-    text-decoration: none;
-    font-size: 12px;
-    line-height: 20px;
-    color: rgb(14, 11, 11);
-    float: right;
+.login-box input[type="button"] {
+    border: none;
+    outline: none;
+    width: 160px;
+    height: 40px;
+    background: red;
+    color: rgb(250, 249, 249);
+    font-size: 18px;
+    border-radius: 20px;
+    margin-right: 6px;
+    cursor: pointer;
 }
 
-.login-box a:hover{
+.login-box input[type="button"]:hover {
+    background-color: #720202;
     color: white;
 }
 
-.contenedorHeader{
+
+.contenedorHeader {
     padding: 10px;
     width: 100%;
 }
@@ -100,71 +103,18 @@ body{
     border-radius: 50mm;
     float: left;
     border-radius: 10px;
-    margin-left:20px ;
-    margin-top:10px;
-}
-
-.head {
-    background-color: rgb(30, 219, 210);
-    width: 62%;
-    height: 70px;
-    float:left;
-    margin-left: 3%;
-    margin-right: 3%;
-   display: flex;
-   justify-content: center;
-   margin-top:10px;
-   border: 1px solid;
-   border-color: black;
-   border-radius: 10px;
-}
-
-.text1 {
-    float: left;
-    height: 40px;
-    width: 15%;
+    margin-left: 20px;
     margin-top: 10px;
-    margin-right:150px ;
-    text-align: center;
-    padding-top: 15px;
-    color: black;
-    font-weight: bold;
-    font-size: 15px;
-}
-
-.hipervinculo{
-    color: black;
-    text-decoration: none;
-}
-
-.text2 {
-    float:left;
-    height: 40px;
-    width: 18%;
-    margin-top: 10px;
-    padding-top: 15px;
-    font-weight: bold;
-    font-size: 15px;
-}
-
-.text3 {
-    float:right;
-    height: 40px;
-    width: 20,5%;
-    margin-top: 10px;
-    margin-left: 150px;
-    padding-top: 15px;
-    font-weight: bold;
-    font-size: 15px;
 }
 
 .boton1 {
     width: 15%;
-    height: 70px ;
-    float: right ;
+    height: 70px;
+    float: right;
     margin-top: 30px;
-   
+
 }
+
 .btn-cerarsesion {
     background-color: transparent;
     color: rgb(17, 17, 17);
@@ -172,5 +122,9 @@ body{
     border-radius: 15px;
     width: 50%;
     height: 38px;
+}
 
+.btn-cerarsesion:hover {
+    background-color: aqua;
+    cursor: pointer;
 }
