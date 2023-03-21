@@ -3,13 +3,15 @@ body{
     padding: 0;
     background:url(../img/mundogenetico.webp) no-repeat center top; 
     background-size: cover;
-    font-family: sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     height: 100vh;
 }
 .login-box{
     width: 500px;
-    height: 590px;
-    background: rgb(86, 191, 199);
+    height: 560px;
+    background: #2193b0;
+    background: -webkit-linear-gradient(to top, #6dd5ed, #2193b0);
+    background: linear-gradient(to top, #6dd5ed, #2193b0);
     color: rgb(10, 7, 7);
     top: 50%;
     left: 50%;
@@ -56,26 +58,32 @@ body{
     color: white; 
     font-size: 16px;
 }
-.login-box input[type="submit"]{
-    border: none;
-    outline: none;
-    height: 40px;
-    background: red;
-    color: rgb(250, 249, 249);
-    font-size: 18px;
-    border-radius: 20px;
-    cursor: pointer;
-}
-
 .login-box input[type="button"]{
     border: none;
     outline: none;
+    width: 40%;
     height: 40px;
-    background: red;
+    background: rgb(88, 237, 250);
     color: rgb(250, 249, 249);
     font-size: 18px;
     border-radius: 20px;
     cursor: pointer;
+    margin-left: 30px;
+}
+
+.login-box input[type="submit"]{
+    border: none;
+    outline: none;
+    width: 40%;
+    height: 40px;
+    background: rgb(88, 237, 250);
+    color: rgb(250, 249, 249);
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    float: right;
+    margin-right: 30px;
+    margin-left: 10px;
 }
 
 .login-box input[type="button"] {
@@ -83,7 +91,7 @@ body{
 }
   
 .login-box input[type="button"]:hover {
-    background-color: #720202; /* Green */
+    background-color: #0431fe;
     color: white;
 }
 
@@ -92,7 +100,7 @@ body{
 }
   
 .login-box input[type="submit"]:hover {
-    background-color: #720202; /* Green */
+    background-color: #0431fe;
     color: white;
 }
 
@@ -103,5 +111,9 @@ body{
     color: rgb(14, 11, 11);
 }
 .login-box a:hover{
+    color: white;
+}
+
+::placeholder{
     color: white;
 }

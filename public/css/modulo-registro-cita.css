@@ -6,7 +6,7 @@ body{
     padding: 0 1.5em;
     background:url(../img/mundogenetico.webp) no-repeat center top; 
     background-size: cover;
-    font-family: sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .boton1 {
@@ -33,7 +33,9 @@ body{
 .login-box{
     width: 900px;
     height: 800px;
-    background: rgb(86, 191, 199);
+    background: #2193b0;
+    background: -webkit-linear-gradient(to top, #6dd5ed, #2193b0);
+    background: linear-gradient(to top, #6dd5ed, #2193b0);
     color: rgb(10, 7, 7);
     top: 54%;
     left: 50%;
@@ -75,14 +77,19 @@ body{
 }
 
 .login-box form button{
-    background: red;
+    background: rgb(88, 237, 250);
     border: 0;
     text-transform: uppercase;
     border-radius: 20px;
 }
 
+.login-box form button:hover{
+    cursor: pointer;
+    background-color: #0431fe;
+}
+
 .btn-modulo-citas-agendadas {
-    background-color: red;
+    background: rgb(88, 237, 250);
     border: none;
     border-radius: 20px;
     color: white;
@@ -92,7 +99,7 @@ body{
 
 .btn-modulo-citas-agendadas:hover {
     cursor: pointer;
-    background-color: rgb(90, 1, 1);
+    background-color: #0431fe;
 }
 
 .login-box .avatar{

@@ -1,15 +1,17 @@
 body{
     margin: 0;
     padding: 0;
-    background:url(../img/mundogenetico.webp) no-repeat center top; 
+    background:url(../img/mundogenetico.webp) center; 
     background-size: cover;
-    font-family: sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     height: 100vh;
 }
 .login-box{
     width: 400px;
     height: 460px;
-    background: rgb(86, 191, 199);
+    background: #2193b0;
+    background: -webkit-linear-gradient(to top, #6dd5ed, #2193b0);
+    background: linear-gradient(to top, #6dd5ed, #2193b0);
     color: rgb(10, 7, 7);
     top: 50%;
     left: 50%;
@@ -60,7 +62,7 @@ body{
     outline: none;
     width: 160px;
     height: 40px;
-    background: red;
+    background: rgb(88, 237, 250);
     color: rgb(250, 249, 249);
     font-size: 18px;
     border-radius: 20px;
@@ -73,7 +75,7 @@ body{
 }
   
 .login-box input[type="button"]:hover {
-    background-color: #720202; /* Green */
+    background-color: #0431fe;
     color: white;
 }
 
@@ -82,7 +84,7 @@ body{
 }
   
 .login-box input[type="submit"]:hover {
-    background-color: #720202; /* Green */
+    background-color: #0431fe;
     color: white;
 }
 
@@ -95,5 +97,9 @@ body{
 }
 
 .login-box a:hover{
+    color: white;
+}
+
+::placeholder{
     color: white;
 }
